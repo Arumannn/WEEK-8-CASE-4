@@ -4,7 +4,7 @@
 #include "body.c" // pastikan header & boolean juga disertakan
 
 int main(){
-    Kota *array[3];
+    Kota *array[10];
     int panjang = sizeof(array) / sizeof(array[0]);
     address Prec, P;
     InitKota(array, panjang);
