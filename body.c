@@ -31,7 +31,6 @@ void DeAlokasi (address Orang)
 
 void InitKota(Kota *A[], int size) {
     for (int i = 0; i < size; i++) {
-        A[i] = malloc(sizeof(Kota));
         A[i]->kt = NULL;
         A[i]->p = NULL;
     }
